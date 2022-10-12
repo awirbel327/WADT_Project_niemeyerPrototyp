@@ -1,14 +1,14 @@
 p{
-    color: with;
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*text in mitte
-    andere schrift 
-    andere größe 
+    font-size: 15px;
+    text-align: center;/*funktioniert nicht*/
+    /*
+    andere schrift  
     */
 }
 
 #footer{
-    color: black;
     background-color: black;
+    bottom: 0%;
 }
