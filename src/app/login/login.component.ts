@@ -13,7 +13,6 @@ export class LoginComponent implements OnInit {
     email: new FormControl('eve.holt@reqres.in', [Validators.required, Validators.email]),
     password: new FormControl('cityslicka', [Validators.required])
   })
-
   public loginError:String;
 
   constructor(private apiService:ApiService,private router: Router) { }
