@@ -5,7 +5,6 @@ import { Observable, throwError, BehaviorSubject } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 import { Router } from '@angular/router';
 
-import { CommonResponse } from "../common/common-response";
 @Injectable({
   providedIn: 'root'
 })
@@ -35,20 +34,6 @@ export class ApiService {
     );
   }
   
-
-  /**
-   * 
-   * @param formData as the login form data
-   */
-  /*signup(formData:any):Observable<HttpResponse<any>>{
-    return this.http.post<any>(this.endPoint+"register",formData,  { observe: 'response' })
-    .pipe(
-      tap((resp: HttpResponse<any>) => {
-        return resp;  
-      }),
-      catchError(this.handleError)
-    );
-  }*/
   /**
    * 
    * @param error error 
