@@ -14,10 +14,6 @@ export class LoginComponent implements OnInit {
     password: new FormControl('cityslicka', [Validators.required])
   })
 
-  loginFormAdmin = new FormGroup({
-    email: new FormControl('admin@reqres.in', [Validators.required, Validators.email]),
-    password: new FormControl('cityslicka', [Validators.required])
-  })
   public loginError:String;
 
   constructor(private apiService:ApiService,private router: Router) { }
