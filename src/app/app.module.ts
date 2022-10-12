@@ -6,9 +6,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS  } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { environment } from '../environments/environment';
 import { LoginComponent } from './login/login.component';
-//import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { ApiService } from './auth/api.service';
@@ -19,7 +17,6 @@ import { ApiInterceptor } from "./auth/api.interceptor";
   declarations: [
     AppComponent,
     LoginComponent,
-   // SignupComponent,
     HeaderComponent,
     FooterComponent
   ],
