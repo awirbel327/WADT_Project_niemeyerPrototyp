@@ -6,6 +6,7 @@ import { ApiService } from "../../auth/api.service";
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+artikel: any; //??? any ?? automatisch
 
   constructor(private apiService:ApiService) { }
 
