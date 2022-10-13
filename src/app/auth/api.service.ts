@@ -56,7 +56,6 @@ export class ApiService {
 
   logout(){
     this.loginStatus.next(false);
-
     this.cookieService.deleteAll();
     this.router.navigate(['/login']);
   }

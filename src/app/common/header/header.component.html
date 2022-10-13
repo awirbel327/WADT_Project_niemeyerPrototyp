@@ -4,5 +4,6 @@
         <span class="example-spacer"></span>
         <a  *ngIf="!(isLoggedIn | async)" class="example-icon" [routerLink]="['login']" routerLinkActive="active-link" mat-raised-button color="warn">Login</a>
         <a class="example-icon"  *ngIf="(isLoggedIn | async)" mat-raised-button color="warn" routerLinkActive="list-item-active" (click)="logout()">Logout</a>
+        <a class="example-icon"  *ngIf="(isLoggedIn | async)" mat-raised-button color="warn" routerLinkActive="list-item-active" (click)="help()">Help</a>
     </mat-toolbar-row>
 </mat-toolbar>
