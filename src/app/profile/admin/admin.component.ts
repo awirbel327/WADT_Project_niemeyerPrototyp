@@ -6,7 +6,7 @@ import { ApiService } from "../../auth/api.service";
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-artikel: any; //??? any ?? automatisch
+artikel: any; 
 
   constructor(private apiService:ApiService) { }
 
